@@ -1,21 +1,42 @@
-/* En este archivo escriban su CSS */
-
-/* Fonts */
-/* Importar aquí la font */
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
-
-/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* Para que el scrolleo en la one page sea suave */
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
+  
+ }
+body{
+    display: inline-block;
+    margin:0%
+}
+.membrete {
+    display: flex;
+   }
+#manos {
+    width: 100%;
+    height: 100%;
+    background:#14213d;
+    padding:10%;
+    font-size: 800%;
+    flex:20%;
+}
+#foto{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50%;
+}
+
+.ident{
+    text-align:center;
+    background-color: #94d2bd;
+    flex: 65%;
+    font-family: 'Yuji Boku', serif;
+    font-size: 25px;
 }
 
 /* Para quitar los puntos a los items de listas */
@@ -35,6 +56,13 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+}
+footer{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-style: 8px;
+    background-color:#9b2226;
+    color:#e8e8e4 ;
 }
 
 /* Recomendaciones! 
