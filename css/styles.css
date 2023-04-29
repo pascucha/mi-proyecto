@@ -129,6 +129,7 @@ main{
     color:#540b0e;
     display: inline;
     justify-content: center;
+    font-family: 'Ubuntu Condensed';
 }
 #cv:hover{
     background-color: yellowgreen;
